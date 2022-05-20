@@ -110,6 +110,12 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    transform: rotate(270deg);
+    transition: transform 3s;
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
